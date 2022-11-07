@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Padauk:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Space+Grotesk:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,700;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik';
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1480px;
+  width: 100%;
+  padding: 0px 25px;
+  margin: 0px auto;
+}
+
+.header {
+  padding: 16px 0px;
+  background: white;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+
+.header .header_left .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.header .header_left .menu a {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4C4C4C;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.header .header_right select {
+  border: none;
+  outline: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4C4C4C;
+}
+
+.header .header_right select option {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4C4C4C;
+}
+
+.header .header_right button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 12px;
+  width: 108px;
+  height: 48px;
+  background: #FF9021;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.header .header_right button span {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.main {
+  background-image: url("../img/nav.png");
+  width: 100%;
+  height: 632px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 16px 0;
+}
+
+.main .container .input {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11px;
+  padding: 0px 0px 0px 12px;
+  gap: 12px;
+  max-width: 739px;
+  width: 100%;
+  height: 60px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.main .container .input input {
+  border: none;
+  outline: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main .container h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.main .container .tovars {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 160px;
+}
+
+.main .container .tovars .tovar_left p,
+.main .container .tovars .tovar_right p {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.main .container .tovars .tovar_left h3,
+.main .container .tovars .tovar_right h3 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  color: #FF8F21;
+}
+
+.main .container .tovars .tovar_left .protsent span,
+.main .container .tovars .tovar_right .protsent span {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.main .container .tovars .tovar_left .protsent .notactive,
+.main .container .tovars .tovar_right .protsent .notactive {
+  color: #CBCBCB;
+}
+
+.tovary {
+  margin-top: 80px;
+}
+
+.tovary .container .buttons {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+.tovary .container .buttons button {
+  cursor: pointer;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 12px;
+  width: 126px;
+  height: 48px;
+  border: 1px solid #0A0786;
+  border-radius: 8px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #0A0786;
+}
+
+.tovary .container .buttons .active_btn {
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 12px;
+  width: 104px;
+  height: 48px;
+  background: #0A0786;
+  border-radius: 8px;
+}
+
+.tovary .container .tovary_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tovary .container .tovary_content .tovary_content_box {
+  border: 1px solid #E0E0E0;
+  border-radius: 16px;
+  width: 23%;
+}
+
+.tovary .container .tovary_content .tovary_content_box .img {
+  position: relative;
+  background: #F4F4F4;
+  border-radius: 16px;
+  padding: 26px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tovary .container .tovary_content .tovary_content_box .img span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 11px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  background: #0A0786;
+  border-radius: 16px 0px;
+  color: #FFFFFF;
+}
+
+.tovary .container .tovary_content .tovary_content_box .tovary_title {
+  padding: 15px;
+}
+
+.tovary .container .tovary_content .tovary_content_box .tovary_title h4 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #A1A1A1;
+}
+
+.tovary .container .tovary_content .tovary_content_box .tovary_title p {
+  margin-top: 8px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #222222;
+}
+
+.tovary .container .tovary_content .tovary_content_box .tovary_title h2 {
+  margin-top: 35px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #0A0786;
+}
+
+.tovary .container .tovary_content .tovary_content_box .tovary_title h5 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin-top: 8px;
+  color: #A1A1A1;
+}
+
+.tovary .container .active {
+  display: none !important;
+}
+
+.tovary .container .tovary_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tovary .container .tovary_item .tovary_item_box {
+  width: 48%;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items {
+  background: #FFFFFF;
+  padding: 24px;
+  border: 1px solid #E0E0E0;
+  border-radius: 16px;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items h2 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #0A0786;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .info_title p {
+  margin-top: 8px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .info_title p span {
+  color: #767676;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .info_title p strong {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FF9021;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .usd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .usd .usd_box {
+  margin-top: 19px;
+  width: 32%;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .usd .usd_box p {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #4C4C4C;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .usd .usd_box h1 {
+  margin-top: 8px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #222222;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .tovary_item_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .tovary_item_left p {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4C4C4C;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .tovar_item_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 23px;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .tovar_item_right a {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #34B87C;
+}
+
+.tovary .container .tovary_item .tovary_item_box .items .tovar_item_right .eye {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
