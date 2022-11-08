@@ -298,9 +298,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 12px;
-  width: 126px;
-  height: 48px;
+  padding: 13px 22px;
   border: 1px solid #0A0786;
   border-radius: 8px;
   font-family: 'Rubik';
@@ -322,9 +320,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 12px;
-  width: 104px;
-  height: 48px;
+  padding: 13px 22px;
   background: #0A0786;
   border-radius: 8px;
 }
@@ -772,6 +768,7 @@ button {
 }
 
 .footer {
+  margin-top: 80px;
   padding: 0px 32px;
   background: #0A0786;
   padding: 32px 0;
